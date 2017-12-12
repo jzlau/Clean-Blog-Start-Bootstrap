@@ -1,0 +1,79 @@
+body{
+margin: auto;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+color:grey;
+}
+h1,h2{
+    font-weight: 800;
+    color: #fff;
+    padding-top: 4.5rem;
+}
+#mainNav{
+    position: absolute;
+    background-color: #fff;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid #fff;
+    }
+
+#mainNav .navbar-brand{
+    font-weight:800;
+    color:#343a40}
+
+#mainNav .navbar-toggler{
+    font-size:12px;
+    font-weight:800;
+    padding:13px;
+    text-transform:uppercase;
+    color:#343a40}
+
+#mainNav .navbar-nav>li.nav-item>a{
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:1px;
+    text-transform:uppercase}
+ #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:rgba(255,255,255,.8)}
+
+@media only screen and (min-width:992px)
+{#mainNav {border-bottom:1px solid transparent;background:0 0}
+
+#mainNav .navbar-brand{
+    color: #fff;
+    padding: 10px 20px;
+}
+#mainNav .navbar-nav>li.nav-item>a{
+       color:white;
+}
+
+@media only screen and (min-width:400px)
+
+.masterhead{
+   margin: 0;
+    padding-top: 200px;
+    height: 600px;
+    color: #fff;
+}
+
+.blockquote{
+    font-style: italic;
+    color: #343b70
+
+}
+
+.sectionHeader{
+    padding: 5% 0;
+    color: black;
+    font-weight: 800;
+}
+
+.mutedCaption{
+    font-size: 15px;
+    padding: 15% 50% 15% 15%;
+    text-align: center;
+    font-style: italic;
+}
+
+#mainNav .is-fixed{
+background-color: #fff;
+}
